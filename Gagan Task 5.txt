@@ -1,0 +1,20 @@
+Task 5: Capture and Analyze Network Traffic Using Wireshark
+Objective: Capture live network packets and identify basic protocols and traffic types.
+Tools Used: Wireshark (Free, Open Source)
+Method (Steps Taken):
+ . Installed Wireshark and launched the tool.
+2.	Selected the active network interface (Wi-Fi).
+3.	Started capturing live packets.
+4.	Generated traffic by browsing a website (HTTP/HTTPS) and running ping to google.com.
+5.	Stopped the capture after approximately 1 minute.
+6.	Applied protocol filters (DNS, TCP, ICMP).
+7.	Identified and analyzed at least 3 protocols.
+8.	Saved the capture file as .pcap.
+Findings:
+Protocol	Description	Example Packet Detail
+ DNS	Resolves domain names into IP  	uested 'google.com' —+ DNS server respond 
+	TCP	Pro 	des reliable communication (connectior€j	3-way handshake: SYN SYN-ACK 
+ICMP	Used for network diagnostics like ping Pi 	request (Echo) and response (Reply) recor 
+d with IF ACK  ed
+ 
+Outcome: Gained hands-on experience in capturing and analyzing network traffic, identified common protocols (DNS, TCP, ICMP), and learned filtering techniques.
